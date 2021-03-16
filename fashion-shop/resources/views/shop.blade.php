@@ -3,5 +3,14 @@
 @section('title','shop online')
 
 @section('content')
-<h2>shop online</h2>
+<ul>
+    @foreach($dresses as $dress)
+        <li>
+            @php //@dump($dress) imported correctly @endphp
+            {{ $dress->id }} {{ $dress->tipo }} {{ $dress->taglia }} {{ $dress->stagione }} {{ $dress->occasione }}
+        </li>
+
+    @endforeach
+    
+</ul>
 @endsection
