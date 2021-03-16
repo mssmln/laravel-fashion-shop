@@ -1,2 +1,2 @@
 require('./bootstrap');
-alert('hello')
+//alert('hello')

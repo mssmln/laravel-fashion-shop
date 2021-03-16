@@ -19425,9 +19425,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-alert('hello');
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //alert('hello')
 
 /***/ }),
 
